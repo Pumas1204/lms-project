@@ -1,15 +1,14 @@
-# Python
+# Python virtual environment
 venv/
-__pycache__/
-*.pyc
+ven/
+ENV/
+env/
+.venv/
 
 # Node
-frontend/node_modules/
-frontend/.next/
-frontend/out/
+node_modules/
 
-# OS files
-.DS_Store
-
-# Env
-.env
+# Django
+__pycache__/
+*.pyc
+db.sqlite3
